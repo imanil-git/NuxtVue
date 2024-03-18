@@ -117,16 +117,18 @@
   <!-- End of Services -->
 
   <!-- Popular Courses -->
-  <section class="bg-[#F8F8FF] py-14">
+  <section class="container mx-auto bg-[#F8F8FF] py-14">
     <h3 class="text-center text-2xl font-bold mb-3">Popular Courses</h3>
-    <p class="text-center text-[#212529]">
+    <p class="text-center text-[#212529] mb-6">
       Discover what's trending. Explore our most popular courses loved by
       students worldwide.
     </p>
 
     <!-- Popular Courses Card  -->
-    <div class="p-10 grid grid-cols-4 gap-6">
+    <div class="flex gap-20 justify-center">
+      <div v-for="i in 4" :key="i">
       <Popularcard />
+    </div>
     </div>
     <!-- End of Popular Courses Card -->
   </section>
@@ -138,7 +140,7 @@
       <h1 class="text-center text-2xl font-bold mb-12 text-white">
         What our students say about us
       </h1>
-      <div class="flex gap-16 justify-between overflow-scroll">
+      <div class="flex gap-16 justify-center overflow-scroll">
         <div v-for="i in 10" :key="i">
           <Video />
         </div>

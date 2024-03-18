@@ -175,14 +175,24 @@
   <!-- About Partner -->
   <section class="container mx-auto mb-9">
     <h1 class="text-center text-2xl font-bold mb-2">Our Placement Partner</h1>
-    <p class="mb-6 indent-4 text-center">At CodeIt, we take immense pride in our strong network of placement partners, which plays a pivotal role in shaping the success stories of our talented <br> individuals. These strategic collaborations with industry leaders and renowned companies enable us to provide unparalleled placement opportunities for our students.</p>
-    <div class="flex gap-5 justify-between">
+    <p class="mb-6 indent-2 text-center">At CodeIt, we take immense pride in our strong network of placement partners, which plays a pivotal role in shaping the success stories of our talented <br> individuals. These strategic collaborations with industry leaders and renowned companies enable us to provide unparalleled placement opportunities for our students.</p>
+    <div class="flex gap-5 justify-between pb-10">
       <div v-for="i in 4" :key="i">
         <img class-="w-64 h-64" src="../assets/images/mantra.png" alt="">
       </div>
     </div>
   </section>
   <!-- End of About Partner -->
+
+  <!-- Admission info -->
+  <section class=" mb-16 py-4 bg-[#CEABAB]">
+    <h1 class="text-center text-2xl font-bold mb-2 text-[#DC4A2A]">More than 60,000 Student has joined our courses</h1>
+    <p class="text-center mb-3">We not only offer career-oriented IT training in Nepal as per industry needs but also assist in <br> successful job placements for deserving students and professionals</p>
+    <div class="flex justify-center">
+      <button class="bg-[#DC4A2A] text-white w-60 h-8 rounded-lg ">Admission</button>
+    </div>
+  </section>
+  <!-- End of Admission info -->
 </template>
 
 <script setup></script>

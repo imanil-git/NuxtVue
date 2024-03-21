@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative w-60 h-56 shadow-xl rounded-lg border-none bg-[#F8F8FF] block"
+    class="relative w-60 h-56 shadow-xl rounded-lg border-none bg-[#F8F8FF] block mb-11"
     @mouseover="hideCourse"
     @mouseout="showCourse"
   >

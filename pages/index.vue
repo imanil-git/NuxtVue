@@ -1,5 +1,5 @@
 <template>
-  <!-- Hero Section -->
+  <!-- =====  Hero Section  ===== -->
   <section class="bg-[#1D3D79]">
     <div class="container mx-auto h-80 flex justify-between items-center">
       <div>
@@ -34,9 +34,9 @@
       </div>
     </div>
   </section>
-  <!-- Hero section end -->
+  <!-- =====  Hero section end  ===== -->
 
-  <!-- Upcoming Classes -->
+  <!-- =====  Upcoming Classes  ===== -->
   <section class="bg-[#F8F8FF] py-14">
     <div class="container mx-auto mb-14">
       <h1 class="text-2xl font-bold mb-2 text-center">Upcoming Classes</h1>
@@ -53,9 +53,9 @@
       <!-- End of Upcoming Classes Card -->
     </div>
   </section>
-  <!-- End of Upcoming Classes -->
+  <!-- =====  End of Upcoming Classes  ===== -->
 
-  <!-- Services -->
+  <!-- =====  Services  ===== -->
   <section>
     <div class="mb-10">
       <div class="container mx-auto">
@@ -114,33 +114,62 @@
       </div>
     </div>
   </section>
-  <!-- End of Services -->
+  <!-- =====  End of Services  ===== -->
 
-  <!-- Popular Courses -->
-  <section class="container mx-auto bg-[#F8F8FF] py-14">
-    <h3 class="text-center text-2xl font-bold mb-3">Popular Courses</h3>
-    <p class="text-center text-[#212529] mb-6">
-      Discover what's trending. Explore our most popular courses loved by
-      students worldwide.
-    </p>
+  <!-- =====  Popular Courses  ===== -->
+  <section class="bg-[#F8F8FF] py-14">
+    <div class="container mx-auto">
+      <h3 class="text-center text-2xl font-bold mb-3">Popular Courses</h3>
+      <p class="text-center text-[#212529] mb-6">
+        Discover what's trending. Explore our most popular courses loved by
+        students worldwide.
+      </p>
 
-    <!-- Popular Courses Card  -->
-    <div class="flex gap-20 justify-center">
-      <div v-for="i in 4" :key="i">
-        <Popularcard />
+      <!-- Popular Courses Card  -->
+      <div class="flex gap-20 justify-center">
+        <div v-for="i in 4" :key="i">
+          <Popularcard />
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="border rounded-lg border-black hover:border-none hover:text-white hover:bg-[#EA6547] w-48 h-8 text-center"
+        >
+          View All
+        </button>
       </div>
     </div>
-    <div class="flex justify-center">
-      <button class="border rounded-lg border-black hover:border-none hover:text-white hover:bg-[#EA6547] w-48 h-8 text-center">
-        View All
-      </button>
-    </div>
-    <!-- End of Popular Courses Card -->
-  </section>
-  <!-- End of Popular Courses -->
 
-  <!-- Feedback -->
-  <section class="bg-[#2E5093] mb-20">
+    <!-- End of Popular Courses Card -->
+
+    <!-- why Code IT -->
+    <div class="container mx-auto h-2/6 pt-20">
+      <div class="grid grid-cols-2 items-center">
+        <div class="flex justify-center">
+          <img
+            class="w-full h-fill p-8"
+            src="../assets/images/Youtube.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <h3 class="text-center">Why Code IT ?</h3>
+          <p>
+            At Code IT, we take pride in being a premier computer institute
+            committed to shaping the future of tech enthusiasts since our
+            establishment on December 24, 2017. As a dedicated center for
+            learning and development, we empower individuals with the skills and
+            knowledge essential for success in the dynamic world of technology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- why Code IT End -->
+  </section>
+  <!-- =====  End of Popular Courses  ===== -->
+
+  <!-- =====  Feedback  ===== -->
+  <section class="bg-[#2E5093]">
     <div class="relative container mx-auto py-6">
       <h1 class="text-center text-2xl font-bold mb-12 text-white">
         What our students say about us
@@ -177,29 +206,94 @@
       </div>
     </div>
   </section>
-  <!-- End of Feedback -->
+  <!-- =====  End of Feedback  ===== -->
 
-  <!-- About Partner -->
-  <section class="container mx-auto mb-9">
-    <h1 class="text-center text-2xl font-bold mb-2">Our Placement Partner</h1>
-    <p class="mb-6 indent-2 text-center">
-      At CodeIt, we take immense pride in our strong network of placement
-      partners, which plays a pivotal role in shaping the success stories of our
-      talented <br />
-      individuals. These strategic collaborations with industry leaders and
-      renowned companies enable us to provide unparalleled placement
-      opportunities for our students.
-    </p>
-    <div class="flex gap-5 justify-between pb-10">
-      <div v-for="i in 4" :key="i">
-        <img class-="w-64 h-64" src="../assets/images/mantra.png" alt="" />
+  <section class="bg-[#F8F8FF] pt-24 pb-8">
+    <!-- =====  Admission info  ===== -->
+    <div class="container mx-auto">
+      <div class="grid grid-cols-2 items-center">
+        <div>
+          <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
+            More than 60,000 Student has <br> joined our courses
+          </h1>
+          <p class="text-center mb-3">
+            We not only offer career-oriented IT training in Nepal as per
+            industry needs but also assist in <br />
+            successful job placements for deserving students and professionals
+          </p>
+          <div class="flex justify-center">
+            <button class="bg-[#264788] text-white w-40 h-10 rounded-lg">
+              Admission
+            </button>
+          </div>
+        </div>
+        <div>
+          <img class="w-full h-full p-10" src="../assets/images/img.png" alt="">
+        </div>
       </div>
     </div>
-  </section>
-  <!-- End of About Partner -->
+    <!-- =====  End of Admission info  ===== -->
 
-  <!-- Admission info -->
-  <section class="mb-16 py-4 bg-[#CEABAB]">
+    <!-- =====  About Partner  ===== -->
+    <div class="container mx-auto">
+      <h1 class="text-center text-2xl font-bold mb-2">Our Placement Partner</h1>
+      <p class="mb-6 indent-2 text-center">
+        At CodeIt, we take immense pride in our strong network of placement
+        partners, which plays a pivotal role in shaping the success stories of
+        our talented <br />
+        individuals. These strategic collaborations with industry leaders and
+        renowned companies enable us to provide unparalleled placement
+        opportunities for our students.
+      </p>
+      <div class="flex gap-5 justify-between pb-10">
+        <div v-for="i in 4" :key="i">
+          <img class-="w-64 h-64" src="../assets/images/mantra.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- =====  End of About Partner  ===== -->
+
+    <!-- =====  Photo Gallery  ===== -->
+    <div class="container mx-auto">
+      <h1 class="text-center text-2xl font-bold mb-2">Photo Gallery</h1>
+      <div class="flex gap-5 overflow-scroll">
+        <div v-for="i in 8" :key="i">
+          <Gallery />
+        </div>
+      </div>
+    </div>
+    <!-- =====  End of Photo Gallery  ===== -->
+
+        <!-- =====  Admission info  ===== -->
+        <div class="container mx-auto">
+      <div class="grid grid-cols-2 items-center">
+        <div>
+          <img class="w-full h-full p-10" src="../assets/images/img.png" alt="">
+        </div>
+        <div>
+          <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
+            Join as Instructor
+          </h1>
+          <p class="text-center mb-3">
+            Do you have a desire to share your knowledge and <br> empower the next generation of tech enthusiasts?
+          </p>
+
+          <p class="text-center mb-3">
+            Code IT invites dynamic and experienced individuals to <br> join our team as instructors.
+          </p>
+          <div class="flex justify-center">
+            <button class="bg-[#264788] text-white w-40 h-10 rounded-lg">
+              Admission
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  End of Admission info  ===== -->
+  </section>
+
+  <!-- =====  Admission info  ===== -->
+  <!-- <section class="mb-16 py-4 bg-[#CEABAB]">
     <h1 class="text-center text-2xl font-bold mb-2 text-[#DC4A2A]">
       More than 60,000 Student has joined our courses
     </h1>
@@ -213,8 +307,8 @@
         Admission
       </button>
     </div>
-  </section>
-  <!-- End of Admission info -->
+  </section> -->
+  <!-- =====  End of Admission info  ===== -->
 </template>
 
 <script setup></script>

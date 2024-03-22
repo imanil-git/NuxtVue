@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-[#F8F8FF] drop-shadow-md sticky top-0 z-10">
-            <div class="container mx-auto flex justify-between items-center h-16 bg-[#F8F8FF] gap-24">
+    <section class="drop-shadow-md sticky top-0 z-10">
+            <div class="container mx-auto flex justify-between items-center h-16 gap-24">
                 <div class="flex gap-4">
                     <div>
                         <img class="w-52 h-12" src="../assets/images/codeit-logo.webp" alt="codeIT-logo.webp">

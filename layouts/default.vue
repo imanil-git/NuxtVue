@@ -1,13 +1,17 @@
 <template>
     <div>
-        <Header>
+        <header>
             <Topbar />
             <Navbar />
-        </Header>
-        <Main>
+        </header>
+        <main>
             <slot></slot>
-        </Main>
-        <Footer></Footer>
+        </main>
+        <footer>
+            <Footer />
+        </footer>
+            
+    
     </div>
 </template>
 

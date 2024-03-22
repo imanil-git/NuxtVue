@@ -1,30 +1,31 @@
 <template>
   <!-- =====  Hero Section  ===== -->
-  <section class="bg-[#1D3D79]">
+  <section>
     <div class="container mx-auto h-80 flex justify-between items-center">
       <div>
-        <h1 class="belgrano-regular text-4xl mb-2 text-white">
+        <h1 class="belgrano-regular text-4xl mb-2 text-black">
           Welcome to Code It
         </h1>
         <i class="fa-solid fa-quote-left text-[#EA6547] text-2xl"></i>
-        <p class="text-sm text-white mb-1">
+        <p class="text-sm text-black mb-1">
           Establish your skills with experts and earn industry recognized
           <span class="text-lg text-[#EA6547]">certificates</span>
         </p>
         <span class="text-4xl text-[#EA6547]"
-          >60k+ <small class="text-base text-white">Members</small></span
+          >60k+ <small class="text-base text-black">Members</small></span
         >
         <div class="pt-14">
-          <span class="text-white">Connect with us on</span>
+          <span class="text-black">Connect with us on</span>
+          <div class="border border-black w-36"></div>
           <div class="flex items-center gap-4">
             <a href="" title="Facebook"
-              ><i class="fa-brands fa-facebook text-white text-2xl"></i
+              ><i class="fa-brands fa-facebook text-black text-2xl"></i
             ></a>
             <a href="" title="Instagram"
-              ><i class="fa-brands fa-instagram text-white text-2xl"></i
+              ><i class="fa-brands fa-instagram text-black text-2xl"></i
             ></a>
             <a href="" title="Youtube"
-              ><i class="fa-brands fa-youtube text-white text-2xl"></i
+              ><i class="fa-brands fa-youtube text-black text-2xl"></i
             ></a>
           </div>
         </div>

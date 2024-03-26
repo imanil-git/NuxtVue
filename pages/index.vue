@@ -27,6 +27,9 @@
             <a href="" title="Youtube"
               ><i class="fa-brands fa-youtube text-black text-2xl"></i
             ></a>
+            <a href="" title="LinkedIn"
+              ><i class="fa-brands fa-linkedin text-black text-2xl"></i
+            ></a>
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-[#264788] py-10">
+  <div class="bg-[#1B3358] py-10">
     <div class="container mx-auto text-white">
       <div class="grid grid-cols-2">
         <div class="grid grid-cols-3">
           <div>
-            <img src="" alt="CodeIT-logo.webp" />
+            <img src="../assets/images/codeit-logo-footer.png" alt="CodeIT-logo.webp" />
             <small>Inspiring Youth Since 2017</small>
             <div class="flex gap-2 items-center">
               <i class="fa-brands fa-whatsapp text-2xl"></i>

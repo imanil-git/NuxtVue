@@ -38,7 +38,7 @@
   <!-- =====  Hero section end  ===== -->
 
   <!-- =====  Upcoming Classes  ===== -->
-  <section class="bg-[#F8F8FF] py-14">
+  <section class="bg-[#E6EEFD] py-14">
     <div class="container mx-auto mb-14">
       <h1 class="text-2xl font-bold mb-2 text-center">Upcoming Classes</h1>
       <p class="mb-10 text-center text-[#212529]">
@@ -46,7 +46,7 @@
         certificates
       </p>
       <!-- Upcoming Classes Card -->
-      <div class="flex gap-16 overflow-scroll">
+      <div class="flex overflow-scroll gap-5">
         <div v-for="i in 4" :key="i">
           <Upcomingclass />
         </div>
@@ -57,49 +57,49 @@
   <!-- =====  End of Upcoming Classes  ===== -->
 
   <!-- =====  Services  ===== -->
-  <section>
-    <div class="mb-10">
+  <section class="bg-[#1B3358] pb-10">
+    <div>
       <div class="container mx-auto">
         <div>
           <div class="flex gap-12 pt-2 mb-4">
-            <h3 class="text-2xl font-bold">Courses</h3>
-            <div class="border h-7 border-black"></div>
+            <h3 class="text-2xl font-bold text-white">Courses</h3>
+            <div class="border h-7 border-white"></div>
             <div class="overflow-scroll flex items-center gap-12">
               <a href="" class="hover:underline text-[#EA6547]">Programming</a>
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Quality Assurance</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Networking</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Mobile App Development</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Framework</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >FullStack</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >CyberSecurity</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Designing</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Corporate</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >Database</a
               >
-              <a href="" class="hover:underline hover:text-[#EA6547]"
+              <a href="" class="hover:underline hover:text-[#EA6547] text-white"
                 >CivilEngineer</a
               >
             </div>
           </div>
 
-          <p>
+          <p class="text-white">
             Programming is the process of designing, writing, testing and
             maintaining the source code of computer it involves using a
             programming language to give instruction to a <br />
@@ -108,7 +108,9 @@
 
           <!-- Course Card -->
           <div class="flex p-12 space-x-10 overflow-scroll">
-            <Coursecard />
+            <div v-for="i in 4" :key="i">
+              <Coursecard />
+            </div>
           </div>
           <!-- End of Course Card -->
         </div>
@@ -118,7 +120,7 @@
   <!-- =====  End of Services  ===== -->
 
   <!-- =====  Popular Courses  ===== -->
-  <section class="bg-[#F8F8FF] py-14">
+  <section class="bg-[#E6EEFD] py-14">
     <div class="container mx-auto">
       <h3 class="text-center text-2xl font-bold mb-3">Popular Courses</h3>
       <p class="text-center text-[#212529] mb-6">
@@ -170,7 +172,7 @@
   <!-- =====  End of Popular Courses  ===== -->
 
   <!-- =====  Feedback  ===== -->
-  <section class="bg-[#2E5093]">
+  <section class="bg-[#1B3358]">
     <div class="relative container mx-auto py-6">
       <h1 class="text-center text-2xl font-bold mb-12 text-white">
         What our students say about us
@@ -209,13 +211,14 @@
   </section>
   <!-- =====  End of Feedback  ===== -->
 
-  <section class="bg-[#F8F8FF] pt-24 pb-8">
+  <section class="bg-[#E6EEFD] pt-24 pb-8">
     <!-- =====  Admission info  ===== -->
     <div class="container mx-auto">
       <div class="grid grid-cols-2 items-center">
         <div>
           <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
-            More than 60,000 Student has <br> joined our courses
+            More than 60,000 Student has <br />
+            joined our courses
           </h1>
           <p class="text-center mb-3">
             We not only offer career-oriented IT training in Nepal as per
@@ -229,7 +232,11 @@
           </div>
         </div>
         <div>
-          <img class="w-full h-full p-10" src="../assets/images/img.png" alt="">
+          <img
+            class="w-full h-full p-10"
+            src="../assets/images/img.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -265,22 +272,28 @@
     </div>
     <!-- =====  End of Photo Gallery  ===== -->
 
-        <!-- =====  Admission info  ===== -->
-        <div class="container mx-auto">
+    <!-- =====  Admission info  ===== -->
+    <div class="container mx-auto">
       <div class="grid grid-cols-2 items-center">
         <div>
-          <img class="w-full h-full p-10" src="../assets/images/img.png" alt="">
+          <img
+            class="w-full h-full p-10"
+            src="../assets/images/img.png"
+            alt=""
+          />
         </div>
         <div>
           <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
             Join as Instructor
           </h1>
           <p class="text-center mb-3">
-            Do you have a desire to share your knowledge and <br> empower the next generation of tech enthusiasts?
+            Do you have a desire to share your knowledge and <br />
+            empower the next generation of tech enthusiasts?
           </p>
 
           <p class="text-center mb-3">
-            Code IT invites dynamic and experienced individuals to <br> join our team as instructors.
+            Code IT invites dynamic and experienced individuals to <br />
+            join our team as instructors.
           </p>
           <div class="flex justify-center">
             <button class="bg-[#264788] text-white w-40 h-10 rounded-lg">

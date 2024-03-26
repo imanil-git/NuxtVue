@@ -1,7 +1,7 @@
 <template>
     <!-- Course Card -->
     <div
-      class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]"
+      class="card relative rounded-lg shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]"
     >
       <div>
         <img
@@ -20,7 +20,7 @@
           <span class="line-through-custom text-[#EA6547]">Rs.16000</span>
         </small>
         <button
-          class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl syllabus hover:bg-[#EA6547]"
+          class="bg-[#1B3358] text-white font-serif text-sm rounded-2xl syllabus hover:bg-[#EA6547]"
         >
           Syllabus
         </button>

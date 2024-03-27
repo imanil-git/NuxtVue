@@ -3,7 +3,7 @@
     <div class="container mx-auto text-white">
       <div class="grid grid-cols-2">
         <div class="grid grid-cols-3">
-          <div>
+          <div class=" mr-10">
             <img src="../assets/images/codeit-logo-footer.png" alt="CodeIT-logo.webp" />
             <small>Inspiring Youth Since 2017</small>
             <div class="flex gap-2 items-center">
@@ -14,12 +14,14 @@
               <i class="fa-solid fa-phone text-2xl"></i>
               <a href="">025-575163</a>
             </div>
-            <div class="flex gap-2 items-center">
+            <div class="flex gap-2 items-center mb-8">
               <i class="fa-regular fa-envelope text-2xl"></i>
               <a href="">info@codeit.com.np</a>
             </div>
-            <div>Reg No: 11757/637/04 PAN No.602345817</div>
-            <div>
+            <div class=" mb-11">
+              Reg No: 11757/637/04 PAN No.602345817
+            </div>
+            <div class="mb-4">
               <span class="text-red-500 font-semibold"> Follow Us On : </span>
               <div class="flex gap-2 text-2xl text-white">
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -30,7 +32,7 @@
             </div>
           </div>
           <div>
-            <h5 class="text-xl font-semibold">Quick Lines</h5>
+            <h5 class="text-xl font-semibold mb-2">Quick Lines</h5>
             <div class="flex flex-col">
               <a href="">Home</a>
               <a href="">Courses</a>
@@ -41,7 +43,7 @@
             </div>
           </div>
           <div>
-            <h5 class="text-xl font-semibold">Account Details</h5>
+            <h5 class="text-xl font-semibold mb-2">Account Details</h5>
             <span>Bank:Nepal Bank Limited</span> <br>
             <span>Acc Name:CODE IT</span> <br>
             <span>AC/No:01600106885462000001</span> <br>
@@ -52,7 +54,7 @@
           <span><i class="fa-solid fa-location-dot"></i>Location - Dharan, Sunsari</span>
         </div>
       </div>
-      <div class="border border-white"></div>
+      <div class="border border-white mb-4"></div>
       <div class="flex justify-between">
         <p>Copyright <i class="fa-regular fa-copyright text-sm font-extralight"></i> 2024 Code-IT.</p>
         <a href="">Terms & Conditions|Privacy Policy</a>

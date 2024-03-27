@@ -1,5 +1,5 @@
 <template>
-  <section class="drop-shadow-md shadow-md sticky top-0 z-10">
+  <section class="bg-[#F8F8FF] drop-shadow-md shadow-md sticky top-0 z-50">
     <div
       class="container mx-auto flex justify-between items-center h-16 gap-24"
     >
@@ -7,7 +7,7 @@
         <div>
           <img
             class="w-52 h-12"
-            src="../assets/images/codeit-logo1.png"
+            src="../assets/images/codeit-logo.png"
             alt="codeIT-logo.webp"
           />
         </div>

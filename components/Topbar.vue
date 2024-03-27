@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#1B3358] drop-shadow-md sticky top-0 z-10">
+  <section class="bg-[#1B3358] drop-shadow-md">
     <div class="container m-auto flex justify-between py-2">
       <div class="flex gap-5 text-white">
         <div class="flex gap-2 items-center">

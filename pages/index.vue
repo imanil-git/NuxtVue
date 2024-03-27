@@ -1,6 +1,6 @@
 <template>
   <!-- =====  Hero Section  ===== -->
-  <section>
+  <section class="bg-[#F8F8FF]">
     <div class="container mx-auto h-80 flex justify-between items-center">
       <div>
         <h1 class="belgrano-regular text-4xl mb-2 text-black">
@@ -308,24 +308,7 @@
     </div>
     <!-- =====  End of Admission info  ===== -->
   </section>
-
-  <!-- =====  Admission info  ===== -->
-  <!-- <section class="mb-16 py-4 bg-[#CEABAB]">
-    <h1 class="text-center text-2xl font-bold mb-2 text-[#DC4A2A]">
-      More than 60,000 Student has joined our courses
-    </h1>
-    <p class="text-center mb-3">
-      We not only offer career-oriented IT training in Nepal as per industry
-      needs but also assist in <br />
-      successful job placements for deserving students and professionals
-    </p>
-    <div class="flex justify-center">
-      <button class="bg-[#DC4A2A] text-white w-60 h-8 rounded-lg">
-        Admission
-      </button>
-    </div>
-  </section> -->
-  <!-- =====  End of Admission info  ===== -->
+  
 </template>
 
 <script setup></script>

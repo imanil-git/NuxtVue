@@ -1,24 +1,22 @@
 <template>
-    <div>
-        <header>
-            <Topbar />
-            <Navbar />
-        </header>
-        <main>
-            <slot></slot>
-        </main>
-        <footer>
-            <Footer />
-        </footer>
-            
-    
-    </div>
+  <div>
+    <Topbar />
+    <Navbar />
+    <main>
+      <slot></slot>
+    </main>
+    <footer>
+      <Footer />
+    </footer>
+  </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>

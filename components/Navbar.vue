@@ -1,8 +1,6 @@
 <template>
   <section
-    :class="{ sticky: isSticky }"
-    id="menu-bar"
-    class="bg-[#F8F8FF] drop-shadow-md shadow-md"
+    class="bg-[#F8F8FF] drop-shadow-md shadow-md sticky top-0 z-10"
   >
     <div
       class="container mx-auto flex justify-between items-center h-16 gap-24"
@@ -50,28 +48,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from "vue";
 
-const isSticky = ref(false);
-
-const handleScroll = () => {
-  isSticky.value = window.pageYOffset >= 64; // Adjust this value as needed
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener("scroll", handleScroll);
-});
 </script>
 
 <style scoped>
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
+
 </style>
